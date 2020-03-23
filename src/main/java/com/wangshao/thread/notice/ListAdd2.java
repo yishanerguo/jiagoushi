@@ -7,6 +7,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @author liutao
  * @create 2020-03-23-19:34
+ * wait notify 方法:wait释放锁,notify不释放锁(唤醒并不代表释放锁,等待线程执行完后再释放锁)
  */
 
 
