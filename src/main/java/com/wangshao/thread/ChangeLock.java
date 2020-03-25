@@ -39,11 +39,11 @@ public class ChangeLock {
             }
         },"t2");
         t1.start();
-      /*  try {
-            Thread.sleep(100);
+        try {
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }*/
+        }
         t2.start();
     }
 }

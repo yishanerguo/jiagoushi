@@ -39,7 +39,7 @@ public class DirtyRead {
             }
         }, "t1");
         t1.start();
-        Thread.sleep(4000);
+//        Thread.sleep(4000);
         dirtyRead.getValue();
     }
 }
