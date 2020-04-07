@@ -1,6 +1,5 @@
 package com.wangshao.thread.rongqi;
 
-import java.security.Key;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
@@ -12,7 +11,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 public class UseDeque {
 
     public static void main(String[] args) {
-        LinkedBlockingDeque<String> dq = new LinkedBlockingDeque<>(10);
+        LinkedBlockingDeque<String> dq = new LinkedBlockingDeque<String>(10);
         dq.addFirst("a");
         dq.addFirst("b");
         dq.addFirst("c");

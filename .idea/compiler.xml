@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activemq-consumer" />
+        <module name="activemq-provider" />
         <module name="jiagoushi" />
+        <module name="rocketmq-transaction-balance" />
+        <module name="rocketmq-transaction-pay" />
       </profile>
     </annotationProcessing>
   </component>

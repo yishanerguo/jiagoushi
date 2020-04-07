@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubboconsumer/dubboconsumer.iml" filepath="E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubboconsumer/dubboconsumer.iml" />
+      <module fileurl="file://E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubboprovider/dubboprovider.iml" filepath="E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubboprovider/dubboprovider.iml" />
+      <module fileurl="file://E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubbox-consumer/dubbox-consumer.iml" filepath="E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubbox-consumer/dubbox-consumer.iml" />
+      <module fileurl="file://E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubbox-provider/dubbox-provider.iml" filepath="E:/BaiduNetdiskDownload/java互联网架构师/资料/dubbo(4-05)/资料/dubbox-provider/dubbox-provider.iml" />
+    </modules>
+  </component>
+</project>

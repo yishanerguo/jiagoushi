@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         //内存缓冲区
-        BlockingQueue<Data> queue = new LinkedBlockingQueue<>(10);
+        BlockingQueue<Data> queue = new LinkedBlockingQueue<Data>(10);
 
         //生产者
         Provider p1 = new Provider(queue);

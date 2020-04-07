@@ -29,8 +29,8 @@ public class UseFuture implements Callable<String> {
         String queryStr = "query";
 
         //构造futuretask,并且传入需要真正进行业务逻辑处理的类,该类异性是实现了callable接口的类
-        FutureTask<String> future = new FutureTask<>(new UseFuture(queryStr));
-        FutureTask<String> future1 = new FutureTask<>(new UseFuture(queryStr));
+        FutureTask<String> future = new FutureTask<String>(new UseFuture(queryStr));
+        FutureTask<String> future1 = new FutureTask<String>(new UseFuture(queryStr));
 
         //创建一个固定线程池且线程数量为1
         ExecutorService service = Executors.newFixedThreadPool(2);
